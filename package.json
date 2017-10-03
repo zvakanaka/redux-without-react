@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "redux": "^3.6.0"
+  },
+  "name": "redux-without-react",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvakanaka/redux-without-react.git"
+  },
+  "author": "no",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/zvakanaka/redux-without-react#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
+}
