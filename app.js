@@ -24,9 +24,10 @@ function reducer(state, action) {
       courses: [...state.courses.slice(0, -1)]
     });
   case 'REMOVE_COURSE':
-    state.courses.splice(action.index, 1);
+    let courses = [...state.courses];
+    courses.splice(action.index, 1);
     return Object.assign({}, state, {
-      courses: state.courses
+      courses: courses
     });
   default:
     return state;
