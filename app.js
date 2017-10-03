@@ -50,10 +50,6 @@ addView((state) => {
 });
 
 addView((state) => {
-  console.log(`The latest course in the library: ${state.courses[state.courses.length -1].name}`);
-});
-
-addView((state) => {
   let deleteBtn = document.createElement('button');
   deleteBtn.textContent = '❌';
   let rows = state.courses
